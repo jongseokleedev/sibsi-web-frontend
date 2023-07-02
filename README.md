@@ -1,4 +1,4 @@
-# SibSi-web-backend: Fundraising assistant for Bday
+# SibSi-web-frontend: Fundraising assistant for Bday
 
 ### Description
 - Sib-Si-Il-Ban is a service that helps you fundraise for events.
