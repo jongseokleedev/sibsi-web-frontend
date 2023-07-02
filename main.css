@@ -1,0 +1,192 @@
+@font-face{
+    font-family: 'name';
+    src:url(../~~); /*내가 준비한 폰트파일을 CSS에서 사용가능하게 등록하는 과정이다.*/
+} /*한글폰트 사이즈는 너무 크다. 사이트 로딩 시간이 늘어날 수 있음. 한글 폰트는 1~2개만 쓰자. 용량을 줄이려면 .woff를 쓰면 된다. 웹용으로 나온 폰트임.*/
+
+/*구글 폰트를 사용 할 수도 있음*/
+
+div{
+    box-sizing: border-box; /*이건 그냥 미리 선언해놓는게 편함 width에 padding과 border모두를 포함하도록하는 것임.*/
+    margin: 0 auto;
+}
+
+body{
+    margin: 0 auto;
+    text-align : center;
+    }
+
+p,h4,h3,h2,h1,span{
+    transform: rotate(0.03deg) ;/*글자가 조금 더 이쁘게 보인다. 아주 미세하게 돌려주면 됨.*/
+    font-size: 16px;
+}
+
+.fontimpact{
+    font-size: 24px;
+    color : #634834;
+}
+
+.body{
+    margin: 0 auto;
+    width:375px;
+    height: 3000px;
+    background-color: #FFF4D7;
+    border: 1px solid black;
+}
+
+.happybirthday{
+    margin: 0 auto;
+    width: 340px;
+    border: 1px solid black;
+}
+
+.introduction{
+    width: 340px;
+    border: 1px solid black;
+   
+}
+
+.giftinfo{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.funding{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.message{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.wishlabel{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.wishinfo{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.graph{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.bar{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.barinfo{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.moneyinput{
+    width: 340px;
+    border: 1px solid black;
+    
+}
+
+.wishbutton{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.messagetable{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.formintro{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.inputname{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.inputphone{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.inputid{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.inputmessage{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.inputbox{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.checkinfo{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.checkfund{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.wishbutton{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.savebutton{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.login{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.loginid{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.loginpw{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.loginbutton{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.giftinput{
+    width: 340px;
+    border: 1px solid black;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 30px; /*외부여백*/
+    padding: 40px; /*내부 여백*/
+    border: 4px solid black; /*stroke*/
+    border-radius: 15px; /*겉선 둥글게*/
+    display: block; /*가로행을 전부 차지해달라는 의미*/ /*div박스 특징 : display : block 기본으로 가지고 있음*/
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px; /*inherit을 지원하는 스타일은 정해져 있따. font-size, font family, color 등*/
+    box-shadow : 5px 5px black;
+}
